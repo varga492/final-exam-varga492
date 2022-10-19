@@ -65,10 +65,10 @@ const headerComponent = () => {
 `;
 };
 
-const cardComponent = (title, sub, text, number) => {
+const cardComponent = (title, sub, text, index) => {
   return `
     <div class="card">
-      <p class="index">${number}</p>
+      <p class="index">${index}</p>
       <h2>${sub}</h2>
       <h1>${title}</h1>
       <p class="text">${text}</p>
