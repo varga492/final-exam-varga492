@@ -1,0 +1,116 @@
+header{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 40px;
+    background-color:  #1a24fb;
+    font-size: 12px;
+    letter-spacing: 0.2rem;
+    font-family: 'Montserrat', sans-serif;
+    text-transform: uppercase;
+    color: #f8f7f3;
+    display: flex;
+    flex-flow: row;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 3;
+    box-sizing: border-box;
+    padding-left: 10px;
+    padding-right: 10px;
+
+}
+
+#root{
+
+    padding: 40px;
+    max-width: 1280px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    flex-direction: row;
+    gap: 100px 20px;
+    margin-top: 100px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 100px;
+}
+.card{
+    max-width: 300px;
+    border: 1px solid #1a24fb;
+    padding: 40px;
+    position: relative;
+    color: #1a24fb;
+
+}
+
+.card>.index{
+    width: 40px;
+    height:40px;
+    font-size: 24px;
+    position: absolute;
+    top: 0;
+    right: -3px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 24px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+    color: #1a24fb;
+}
+
+h1{
+    font-size: 36px;
+    font-weight: bold;
+    font-family: 'Montserrat', sans-serif;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    max-width: 250px;
+    min-height: 72px;
+    color: #1a24fb;
+}
+
+h2{
+    text-transform: uppercase;
+    font-size: 12px;
+    letter-spacing: 0.2rem;
+    font-family: 'Montserrat', sans-serif;
+    color: #1a24fb;
+}
+
+.text{
+    margin-top: 20px;
+    font-size: 16px;
+    font-family: 'Overpass', sans-serif;
+    line-height: 22px;
+    color: #1a24fb;
+}
+
+button{
+    outline: none;
+    background-color: transparent;
+    border: none    ;
+    width: 100%;
+    height: 18px;
+    font-size: 14px;
+    font-family: 'Montserrat', sans-serif;
+    position: absolute;
+    bottom: -19px;
+    left: 0;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    color: #1a24fb;
+}
+button:hover{
+    background-color: #1a24fb;
+    color: #f8f7f3;
+}
+
+.material-icons.md-18 { font-size: 18px; }
+.material-icons.md-24 { font-size: 24px; }
+
+
